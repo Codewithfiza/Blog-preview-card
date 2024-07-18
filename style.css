@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.regular-text {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+.bold-text {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    
+}
+body {
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+main {
+    width:384px ;
+    height:521px ;
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 16px 16px  black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+svg {
+    margin-top: .5rem;
+    width: 340px;
+    border-radius: 1rem;
+}
+.context {
+    height:194px ;
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.context button {
+    height: 30px;
+    width: 82px;
+    background-color: #F4D04E;
+    color: black;
+    border: none;
+    border-radius: .3rem
+
+}
+.context h3 {
+    font-size: 1.5rem;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 2.5rem;
+    align-items: center;
+
+}
+.author img {
+    height: 32px;
+    width: 32px;
+}
+.author p {
+    margin-left: .5rem;
+
+}
